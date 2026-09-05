@@ -1,0 +1,9 @@
+fastapi==0.128.8
+uvicorn[standard]==0.39.0
+pydantic==2.13.5
+
+# test-only
+httpx==0.28.1
+pytest==8.4.2
+pytest-asyncio==1.2.0
+websockets==15.0.1

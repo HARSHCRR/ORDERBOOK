@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Tabular figures everywhere: prices and quantities must not jitter as digits
+   change, the way they do not on a real trading terminal. */
+:root {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-feature-settings: "tnum";
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: #0b0e14;
+}
